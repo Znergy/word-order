@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="panel panel-default">
+      <div class="panel panel-primary">
         <div class="panel-heading">
           <h2 class="panel-title">Word Order</h2>
         </div>
@@ -17,15 +17,23 @@
             <div class="form-group">
             <label for="textInput">Text</label>
             <textarea id="textInput" class="form-control vresize" type="text"></textarea>
+            <footer id="wordCount">Word Count:</footer>
           </div>
           <button class="btn" id="submit">click</button>
           </form>
         </div>
       </div>
       <div id="results">
-        <ul id="resultUL">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h2 class="panel-title">Results</h2>
+          </div>
+          <div class="panel-body custom-length">
+            <ul id="resultUL" class="margin-top">
 
-        </ul>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <script

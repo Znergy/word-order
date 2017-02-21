@@ -2,6 +2,39 @@
   resize: both;
 }*/
 
+body {
+  background-image: url('../img/bg1.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .vresize {
   resize: vertical;
+}
+
+footer {
+  float: right;
+  padding-right: 10px;
+}
+
+.panel {
+  margin-top: 150px;
+  background-color: #fff;
+}
+
+.panel h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.custom-length {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.give-margin {
+  margin-top: 10px;
 }

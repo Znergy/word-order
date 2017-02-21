@@ -25,11 +25,10 @@ $(document).ready(function() {
 
     });
 
-    console.log(a);
-    console.log(b);
-
     for (i=0; i<a.length; i++) {
       $("#resultUL").append("<li>The word is " + a[i] + ", the count is " + b[i] + ".</li>");
     }
+
+    $("#wordCount").text("Word Count: " + wordArray.length);
   });
 });
